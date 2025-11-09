@@ -1,0 +1,35 @@
+.link{
+  text-decoration: none;
+  width: 100%;
+}
+
+.button {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.primary {
+  background-color: var(--orange-primary);
+  color: white;
+}
+.underLine {
+  background-color: transparent;
+  color: var(--orange-primary);
+  border: 1px solid var(--orange-primary);
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
