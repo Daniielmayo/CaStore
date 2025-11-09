@@ -1,6 +1,9 @@
 import { forwardRef } from 'react'
 import './input.modules.css'
 
+/**
+ * Propiedades del componente Input
+ */
 interface InputProps {
   label?: string
   error?: string
@@ -13,6 +16,12 @@ interface InputProps {
   className?: string
 }
 
+/**
+ * Componente Input reutilizable con soporte para etiquetas, errores y texto de ayuda
+ * Un campo de entrada versátil que incluye validación visual, diferentes tamaños
+ * y variantes de estilo. Implementa forwardRef para compatibilidad con bibliotecas
+ * de formularios como React Hook Form que es la que vamos a utilizar para menejod e formularios.
+ */
 export const Input = forwardRef<HTMLInputElement, InputProps>(
   (
     {
@@ -29,6 +38,7 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
     },
     ref
   ) => {
+    // Construye las clases CSS dinámicamente basado en las props
     const inputClasses = [
       'input',
       `input--${variant}`,

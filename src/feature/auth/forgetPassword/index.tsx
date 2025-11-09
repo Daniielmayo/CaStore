@@ -2,6 +2,14 @@ import { Button } from "../../../components/Button";
 import { Input } from "../../../components/Input";
 import { AuthLayout } from "../layout/AuthLayout";
 
+/**
+ * Componente de página para recuperación de contraseña
+ * 
+ * Permite a los usuarios solicitar un enlace de recuperación de contraseña
+ * mediante su correo electrónico. Incluye navegación de vuelta al login
+ * y hacia el cambio de contraseña.
+ 
+ */
 export const ForgetPassword = () => {
   return (
     <AuthLayout

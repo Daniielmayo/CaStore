@@ -2,6 +2,13 @@ import { Button } from "../../../components/Button";
 import { Input } from "../../../components/Input";
 import { AuthLayout } from "../layout/AuthLayout";
 
+/**
+ * Componente de página de inicio de sesión
+ * 
+ * Renderiza un formulario de login con campos para email y contraseña,
+ * junto con botones para iniciar sesión y recuperar contraseña.
+ * Utiliza el AuthLayout para mantener consistencia visual.
+ */
 export const Login = () => {
 
 
