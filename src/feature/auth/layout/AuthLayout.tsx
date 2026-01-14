@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { Text } from "../../../components/Text";
+import { Text } from "../../../shared/components/Text";
 import styles from "./AuthLayout.module.css";
 
 /**

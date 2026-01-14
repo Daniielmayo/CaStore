@@ -1,6 +1,6 @@
 import { AuthLayout } from "../layout/AuthLayout";
-import { Input } from "../../../components/Input";
-import { Button } from "../../../components/Button";
+import { Input } from "../../../shared/components/Input";
+import { Button } from "../../../shared/components/Button";
 
 /**
  * Componente de página para cambio de contraseña
